@@ -1,4 +1,4 @@
-import { resetPickedCards } from "/Game/storage.js";
+import { resetPickedCards } from "../storage.js";
 
 // /Game/screens/win.js - Combined Win & Lose overlays
 

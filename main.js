@@ -77,7 +77,7 @@ function clearApp() {
 }
 
 /* ===== DEBUG FLAG ===== */
-const DEBUG_SKIP_LOADING = true;
+const DEBUG_SKIP_LOADING = false;
 
 /* ===== START FLOW ===== */
 if (DEBUG_SKIP_LOADING) {
