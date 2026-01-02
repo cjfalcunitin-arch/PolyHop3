@@ -3,7 +3,7 @@ import { getPickedCards } from "./storage.js";
 import { trigger, on } from "./core/eventhandler.js";
 import { setupPlayerCollision } from "./system/playercollision.js";
 /* ===== NEW: CREDIT DISPLAY ===== */
-import { getCredit, resetCredit, setCredit, addCredit, subtractCredit } from "/Game/system/credit.js";
+import { getCredit, resetCredit, setCredit, addCredit, subtractCredit } from "./Game/system/credit.js";
 import { showCardEvent } from "./system/cardevent.js";
 /* ===== NEW: RENDER CARD & DRAG ===== */
 import { createCardElement } from "./draw/renderbody.js";
