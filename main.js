@@ -3,8 +3,8 @@ import { showLobby } from "./Game/lobby.js";
 import { showGame } from "./Game/game.js";
 import { showTutorial } from "./Game/levels/tutorial.js";
 import { getCredit } from "./Game/system/credit.js";
-import { resetPickedCards } from "/Game/storage.js"; 
-import { markLevelCleared, isLevelUnlocked, isLevelCleared } from "/Game/system/progress.js";
+import { resetPickedCards } from "./Game/storage.js"; 
+import { markLevelCleared, isLevelUnlocked, isLevelCleared } from "./Game/system/progress.js";
 
 /* ===== GLOBAL FONT ===== */
 const fontLink = document.createElement("link");
